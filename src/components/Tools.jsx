@@ -25,7 +25,7 @@ export default function Tools({data}){
             </div>
 
 
-            <div className="skillSet flex justify-between">
+            <div className="skillSet flex justify-center">
 
                 <div className="w-1/2 md:w-1/3 p-4 border rounded-lg bg-gray-800 shadow-xl m-4">
                     <h3 className="text-xl font-bold mb-4">Tools</h3>
