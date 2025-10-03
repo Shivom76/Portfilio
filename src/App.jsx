@@ -27,7 +27,7 @@ return (
       <Navbar />
       <h1 className='text-center text-6xl font-extrabold tracking-tight 
     bg-clip-text text-transparent 
-    bg-gradient-to-r from-indigo-400 to-cyan-400'>My Portfolio</h1>
+    bg-gradient-to-r from-indigo-400 to-cyan-400 leading-relaxed'>My Portfolio</h1>
 
 
 
