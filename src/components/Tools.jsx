@@ -42,15 +42,15 @@ export default function Tools({data}){
     let print=(e)=>{
         {
         if(e.target.value=="back"){
-            console.log(e.target.value)
+            // console.log(e.target.value)
             setactiveSkillSet("back")
         }
         if(e.target.value=="database"){
-            console.log(e.target.value)
+            // console.log(e.target.value)
             setactiveSkillSet("database")
         }
         if(e.target.value=="front"){
-            console.log(e.target.value)
+            // console.log(e.target.value)
             setactiveSkillSet("front")
         }
     }
@@ -82,7 +82,7 @@ export default function Tools({data}){
 
             <div className="skillSet flex justify-center">
 
-                <div className="w-1/2 md:w-1/3 p-4 rounded-lg bg-gray-900/50 shadow-xl m-4">
+                <div className="w-1/2 h-72 md:w-1/3 p-4 rounded-lg bg-gray-900/50 shadow-xl m-4">
                     <h3 className="text-xl font-bold mb-4">Tools</h3>
                     {/* {tools.map((skill) => (
                         <SkillProgress 
@@ -98,7 +98,7 @@ export default function Tools({data}){
                         </ul>
                 </div>
 
-                <div className="w-1/2 md:w-1/3 p-4 rounded-lg bg-gray-900/50 shadow-xl m-4">
+                <div className="w-1/2 h-72 md:w-1/3 p-4 rounded-lg bg-gray-900/50 shadow-xl m-4">
                         <h3 className="text-xl font-bold mb-4">Skills</h3>
         
 
