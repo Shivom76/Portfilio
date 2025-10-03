@@ -4,6 +4,8 @@ import Footer from "./components/Footer.jsx"
 import Cards from "./components/Cards.jsx"
 import Tools from "./components/Tools.jsx"
 import Contact from "./components/Contact.jsx"
+// import pic from "./src/assets/pic1";
+
 
 const eduData=[
   { id: 1, title: "Jain University", content: "Bachelor in CSE-IoT" },
@@ -26,6 +28,19 @@ return (
       <h1 className='text-center text-6xl font-extrabold tracking-tight 
     bg-clip-text text-transparent 
     bg-gradient-to-r from-indigo-400 to-cyan-400'>My Portfolio</h1>
+
+
+
+    <div className="flex justify-evenly items-center m-3">
+      <div className="text-center">
+        <img src="/images/pic1.jpg" alt="pic" className="h-72 rounded-lg"/>
+      </div>
+      <div>
+        <p className=" text-center">Hi, I am Shivom Paul. A fullstack web Developer</p>
+      </div>
+    </div>
+
+
 
       <h2 className="text-center mt-3 text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-700 to-blue-800">My Academic & Professional Journey</h2>
       <div className="Box flex justify-center">

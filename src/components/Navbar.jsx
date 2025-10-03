@@ -5,9 +5,9 @@ export default function Navbar(){
                     <a href="/">Shivom</a>
                 </div>
             <nav className="px-1 align-center min-[376px]:mx-1">
-                <a href="#" className="px-2 sm:px-1">Home</a>
                 <a href="#" className="px-2 sm:px-1">About</a>
                 <a href="#" className="px-2 sm:px-1">Projects</a>
+                <a href="#" className="px-2 sm:px-1">Skills</a>
                 <a href="#" className="px-2 sm:px-1">Contact</a>
             </nav>
         </div>
