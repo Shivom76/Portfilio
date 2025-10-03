@@ -19,15 +19,25 @@ const proffData=[
 
 ]
 
-const skillData = [
-  { id: 1, name: "React.js", level: 90 },
-  { id: 2, name: "Tailwind CSS", level: 85 },
-  { id: 3, name: "JavaScript", level: 95 },
-  { id: 4, name: "Node.js", level: 70 },
-  { id: 5, name: "MongoDB", level: 60 },
-  { id: 6, name: "UI/UX Design", level: 75 },
-];
+// const frontData = [
+//   { id: 1, name: "React.js", level: 80 },
+//   { id: 2, name: "Tailwind CSS", level: 85 },
+//   { id: 3, name: "JavaScript", level: 95 },
+//   { id: 4, name: "UI/UX Design", level: 75 },
+//   { id: 5, name: "Bootstrap", level: 85 },
+// ];
 
+// const backData = [
+//   { id: 1, name: "Node.js", level: 95 },
+//   { id: 2, name: "Express", level: 86 },
+//   { id: 3, name: "Next js", level: 80 },
+// ];
+
+// const dbData=[
+//   { id: 1, name: "MongoDB", level: 85 },
+//   { id: 2, name: "MySQL", level: 85 },
+//   { id: 3, name: "PostgreSql", level: 85 },
+// ]
 
 function App() {
 // bg-blue-950
@@ -46,7 +56,7 @@ return (
 
         <Cards text="Professional Experience"  data={proffData}/>
       </div>
-      <Tools data={skillData}/>
+      <Tools/>
 
       <Footer/>
     </div>
